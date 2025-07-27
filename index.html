@@ -12,8 +12,16 @@
         Этот восхитительный пирог с клубникой и сметанной заливкой несомненно достоин любого праздничного стола. Нежная, слегка рассыпчатая основа, покрытая лёгким облачком сметанного слоя с шелковистой кремовой текстурой. Добавьте ко всему этому  яркую, ароматную клубнику и, проверено, устоять перед этим пирогом просто невозможно! А приготовить его проще простого. Поэтому рекомендую не ждать праздников, а украсить им будничный семейный вечер за чашкой чая.
     </p>
      <h3>Как приготовить пирог с клубникой и сметаной</h3>
-    <h3>Ингредиенты:</h3>
+    
+    <ol>
+        <li value = '3'>Общ.\актив. время готовки: 1 час\25 минут</li>
+        <li>Рейтинг: 4.3 / 5 13 отзывов</li>
+        <li>Количество порций: 8 порций</li>
+        <li>Калорийность (100g): 260 ккал</li>
+        <li>Сложность: Справится новичок</li>
+    </ol>
 
+    <h3>Ингредиенты:</h3>
     <table border="1" width = "50%" cellpading = "5" >
         <tr>
             <th>Ингридиент</th>
@@ -102,5 +110,54 @@
     </p>
     <img src="https://menunedeli.ru/wp-content/uploads/2022/06/Pirog-s-klubnikoy-i-smetanoy-10-1000x675.jpg" >
 
+    <form action="#" nane="orderForm">
+        <h3> Форма заказа </h3>
+        <span>Имя</span>
+        <input type="text" id="userName" placeholder="Ваше имя">
+        </br>
+        <label for="family">Фамилия</label>
+        <input type="text" id="family" placeholder="Ваша фамилия">
+        </br>
+        <label for="cherryOnTop">Вишенка на торте</label>
+        <input type="checkbox" id="cherryOnTop">
+        </br>
+        <label for="cherryOnTop">Дата заказа</label>
+        <input type="date" id="date">
+        </br>
+        <label for="cherryOnTop">Время заказа</label>
+        <input type="time" id="time">
+        </br>
+        <label for="email">email</label>
+        <input type="email" id="email">
+        </br>
+        <label for="password">password</label>
+        <input type="password" id="password">
+        </br>
+        <label for="file">добавить файл</label>
+        <input type="file" id="file">
+        </br>
+        <label for="amount">количество тортов</label>
+        <input type="number" id="amount">
+        </br>
+        <label for="amount">начинка</label>
+        </br>
+        <input type="radio" name="filling" value="1" checked> Клубника
+        </br>
+        <input type="radio" name="filling" value="2"> Малина
+        </br>
+        <input type="radio" name="filling" value="3"> Черника
+        </br>
+        <select 
+            name="delivery"
+        >
+            <option disabled>Выберите доставку</option>
+            <option value="post">Почта</option>
+            <option value="sdek">СДЭК</option>
+            <option value="courier">Курьер</option>
+        </select>
+        </br>
+        <button>Button</button>
+        <input type="submit" ></input>
+    </form>
 </body>
 </html>
