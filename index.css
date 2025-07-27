@@ -1,0 +1,15 @@
+p {
+    background: linear-gradient(orange, green, #4424fc);
+}
+
+#pie-description {
+    background-color: #a624fc;
+}
+
+img {
+    /* width: 300px; */
+    width: 40%;
+    border-radius: 5px;
+    border: 1px dotted darkmagenta;
+    box-shadow: 6px 4px 20px 7px #f60047;
+}
