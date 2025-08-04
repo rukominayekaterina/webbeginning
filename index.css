@@ -34,8 +34,19 @@ p {
     color: blue;
 
   ;}
-   .p8 {position:relative top = 30: left=-20
-  ;}
+  
+#second-div {
+    margin: 100px;
+    padding: 24px;
+    background: orange;
+    color: azure;
+    border: 4px solid brown;
+    border-radius: 10px;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
 
 /*div p {
     color: green; 
