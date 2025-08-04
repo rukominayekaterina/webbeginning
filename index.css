@@ -1,4 +1,4 @@
-p {
+/* p {
     background: linear-gradient(orange, green, #4424fc);
 }
 
@@ -7,9 +7,52 @@ p {
 }
 
 img {
-    /* width: 300px; */
+   
     width: 40%;
     border-radius: 5px;
     border: 1px dotted darkmagenta;
     box-shadow: 6px 4px 20px 7px #f60047;
+} */
+BODY {
+ background: url('https://menunedeli.ru/wp-content/uploads/2022/06/Pirog-s-klubnikoy-i-smetanoy-1-1000x667.jpg') no-repeat;
+  }
+ 
+p { 
+    background: yellow;
 }
+#second-p {
+    background: red;
+}
+#second-p:hover {
+    background: gray;
+    color: rgb(204, 217, 228);
+}
+ p.violet-p {
+    background: violet;
+}
+.violet-p-div  {
+    color: blue;
+
+  ;}
+   .p8 {position:relative top = 30: left=-20
+  ;}
+
+/*div p {
+    color: green; 
+    font-family: Calibri;
+    font-size: 25px;
+    font-weight: 600;
+    background: maroon;
+}
+/*#second-div:hover { color: gray;
+background: orange;}
+/* {
+     margin: 0;
+ padding: 0;
+}*
+/*
+FORM P * { ЭТО ЧТО???
+ border: 1px solid #333; 
+ background-color: rgba(209, 81, 124, 0.849)
+};
+*/
