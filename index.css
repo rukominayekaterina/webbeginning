@@ -73,17 +73,20 @@ FORM P * { ЭТО ЧТО???
 .container {
     display: flex;
     /* flex-wrap: wrap; */
-    /* flex-direction: column; */
+     flex-direction: column; 
     /* justify-content: center; */
     background: lightcoral;
     /* align-items: center; */
     height: 500px;
     align-items: center;
     justify-content: flex-end;
-    /* flex-direction: column; */
+  /*   flex-direction: column;*/
     flex-direction: row;
     align-items: stretch;
     gap: 40px;
+    @media screen and (width <= 768px) {
+        flex-direction: column; 
+    }
 }
 
 .container p {
@@ -98,11 +101,29 @@ FORM P * { ЭТО ЧТО???
 
 
 .inner-div {
+    flex: 2;
     height: 200px;
     width: 150px;
     margin: 10px;
     background-color: #096eeb;
 }
+
+.inner-div:nth-child(2) {
+/* .inner-div:first-child { */
+/* .inner-div:last-child { */
+    flex-basis: fit-content;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    background-color: #096eeb
+}
+/* .inner-div_2 {
+    flex: 4;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    background-color: #096eeb
+} */
 #happy-cats {
     position: absolute;
     top: -53px;
@@ -112,3 +133,9 @@ FORM P * { ЭТО ЧТО???
     z-index: -1;
     opacity: 0.5;
 }
+
+
+
+/* https://www.figma.com/design/otFMp1ffdqvInEqLcGMLf5/Elite---Food-Restaurant---Coffee-Free-Figma-Template--Community---Community-?node-id=308-10777&t=12JvufNg8lxQL8Zf-0 */
+
+/* https://www.figma.com/design/fLkUIGSHeYoaiANzIIcBnj/Elite---Food-Restaurant---Coffee-Free-Figma-Template--Community---Community---Copy-?node-id=100-563&p=f&t=BghYObbc3mXzwEt0-0 */
